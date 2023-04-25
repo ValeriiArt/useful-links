@@ -1,3 +1,7 @@
+#Q0A0 {
+    z-index: 50;
+}
+
 .main-header {
     padding: 5px;
 }
@@ -637,4 +641,13 @@ summary:hover .count {
 .sub-tab {
     margin: 0;
     padding: 0;
+}
+
+.sub-tab details {
+    padding: 5px 0;
+}
+
+.sub-container {
+    padding: 0 10px;
+    background: #f0f8ff;
 }
