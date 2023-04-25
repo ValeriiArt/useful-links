@@ -1,26 +1,23 @@
-
-.main-header{
-padding: 5px;
+.main-header {
+    padding: 5px;
 }
 
-.test-table{
+.test-table {
     display: flex;
     width: 100%;
 }
 
-.row-test{
+.row-test {
     margin: 5px;
     padding: 3px;
 }
 
-.column-test{
+.column-test {
     width: 25%;
     min-width: 25%;
 }
 
-.long{
-    
-}
+.long {}
 
 body {
     width: 100%;
@@ -30,14 +27,15 @@ body {
     background-color: rgba(255, 245, 238, .2);
 }
 
-.under-construction{
+.under-construction {
     margin-left: auto;
 }
 
-.under-construction p{
+.under-construction p {
     font-style: italic;
     color: gray;
 }
+
 caption {
     display: none;
 }
@@ -46,12 +44,13 @@ div {
     box-sizing: border-box;
 }
 
-.content{
+.content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     width: 100%;
 }
+
 .table-container {
 
     width: 100%;
@@ -95,7 +94,7 @@ table {
     width: calc(95% - 60px);
     min-width: calc(95% - 60px);
     max-width: calc(95% - 60px);
-    padding:  0 5px;
+    padding: 0 5px;
     text-align: center;
 }
 
@@ -148,26 +147,26 @@ table {
     height: 100%;
 }
 
-.content-part{
+.content-part {
     width: 100%;
 }
 
-.content-part .div-container{
+.content-part .div-container {
     width: 100%;
     min-width: 100%;
 }
 
-.content-part .div-container div .test div div img{
+.content-part .div-container div .test div div img {
     width: 30px;
     padding: 5px;
 }
- 
-.content-part .div-container div .test{
+
+.content-part .div-container div .test {
     width: 100%;
     min-width: 100%;
     margin: 0;
     padding: 5px 0;
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
 .left i {
@@ -176,15 +175,15 @@ table {
     text-align: center;
 }
 
-.md{
+.md {
     display: flex;
 }
 
-.lg{
+.lg {
     display: none;
 }
 
-.column-test{
+.column-test {
     width: 33%;
     min-width: 33%;
     padding: 6px;
@@ -207,8 +206,8 @@ table {
 
     .flex-row-30 {
         width: calc(90% - 60px);
-    min-width: calc(90% - 60px);
-    max-width: calc(90% - 60px);
+        min-width: calc(90% - 60px);
+        max-width: calc(90% - 60px);
 
     }
 
@@ -231,17 +230,18 @@ table {
         justify-content: center;
     }
 }
+
 @media only screen and (max-width: 1150px) {
-    .md{
+    .md {
         display: flex;
         width: 100%;
     }
 
-    .lg{
+    .lg {
         display: none;
     }
 
-    .column-test{
+    .column-test {
         width: 33%;
         min-width: 33%;
     }
@@ -265,11 +265,11 @@ table {
 
 @media only screen and (max-width: 700px) {
 
-    .md{
+    .md {
         flex-direction: column;
     }
 
-    .column-test{
+    .column-test {
         width: 100%;
         min-width: 100%;
     }
@@ -278,6 +278,7 @@ table {
         display: flex;
         justify-content: center;
     }
+
     .test>.row {
         flex-direction: column;
     }
@@ -361,24 +362,25 @@ h2 {
     text-decoration: none;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
- 
+
     display: flex;
     align-items: center;
     transition: all .3s ease-in-out, transform .3s ease-in-out;
     width: 80%;
     margin: auto;
- 
+
     flex-grow: 1;
     width: 100%;
     min-width: 100%;
     display: block;
- padding: 5px;
+    padding: 5px;
 }
 
-.accordion-menu > summary {
+.accordion-menu>summary {
     box-shadow: none;
     background: white;
 }
+
 .block {
     display: flex;
     padding: 0 10px;
@@ -410,7 +412,7 @@ summary {
     top: 0px;
     background: white;
     margin-bottom: 20px;
-  
+
 }
 
 .summary-part {
@@ -427,10 +429,11 @@ summary {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
- 
+
 }
 
-.descm, .flex-row-50{
+.descm,
+.flex-row-50 {
     display: none;
 }
 
@@ -466,8 +469,8 @@ summary:hover {
 summary:hover .count {
     transition: all .34s ease-in-out, transform .3s ease-in-out;
     scale: 1.1;
-   /*  font-size: 14px; */
-    background:  #015db6;
+    /*  font-size: 14px; */
+    background: #015db6;
 }
 
 .content-part {
@@ -530,13 +533,14 @@ summary:hover .count {
                                     not supported by any browser */
 }
 
-.left{
+.left {
     pointer-events: none;
 }
 
-.right{
+.right {
     pointer-events: none;
 }
+
 .content-item-wrapper>div {
     display: flex;
     align-items: center;
@@ -583,13 +587,13 @@ summary:hover .count {
     align-items: start;
 }
 
-.title-logo{
+.title-logo {
     width: 40px;
     padding-right: 20px;
     padding-left: 10px;
 }
 
- 
+
 @keyframes sweep {
     0% {
         opacity: 0;
@@ -622,10 +626,15 @@ summary:hover .count {
     background: #555;
 }
 
-.under-construction-page{
+.under-construction-page {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+}
+
+.sub-tab {
+    margin: 0;
+    padding: 0;
 }
