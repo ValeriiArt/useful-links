@@ -135,7 +135,7 @@ table {
 
 .test:hover {
     border: none;
-    background: rgba(0, 0, 0, 0.02);
+    background: rgba(256, 256, 256, 0.75);
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
@@ -158,6 +158,7 @@ table {
 .content-part .div-container {
     width: 100%;
     min-width: 100%;
+    padding: 5px;
 }
 
 .content-part .div-container div .test div div img {
@@ -479,6 +480,8 @@ summary:hover .count {
 
 .content-part {
     width: 100%;
+    background: #d7e7f6;
+    padding: 0 5px;
 }
 
 .content-list {
@@ -645,9 +648,15 @@ summary:hover .count {
 
 .sub-tab details {
     padding: 5px 0;
+    background: #fff;
 }
 
 .sub-container {
     padding: 0 10px;
-    background: #f0f8ff;
+    background: #aed1f0;
+}
+
+.content-part-sub {
+    background: #aed1f0;
+    padding: 5px;
 }
