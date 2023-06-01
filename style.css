@@ -90,6 +90,14 @@ table {
     padding-left: 10px;
 }
 
+.flex-row-10-icon-fix-position {
+    /* width: 10%;
+    min-width: 10%; */
+    width: 130px;
+    min-width: 130px;
+    padding-left: 10px;
+}
+
 .flex-row-5 {
     width: 5%;
 }
@@ -102,9 +110,22 @@ table {
     text-align: center;
 }
 
+.flex-row-30-icon-fix-position {
+    width: calc(95% - 130px);
+    min-width: calc(95% - 130px);
+    max-width: calc(95% - 130px);
+    padding: 0 5px;
+    text-align: center;
+}
+
 .flex-row-50 {
     width: 55%;
     min-width: 55%;
+}
+
+.flex-row-50-icon-fix-position {
+    width: 45%;
+    min-width: 45%;
 }
 
 .flex-row,
@@ -200,9 +221,18 @@ table {
         width: 40%;
     }
 
+    .flex-row-30-icon-fix-position {
+        width: 30%;
+    }
+
     .flex-row-50 {
         width: 45%;
         min-width: 45%;
+    }
+
+    .flex-row-50-icon-fix-position {
+        width: 35%;
+        min-width: 35%;
     }
 
 }
@@ -216,9 +246,20 @@ table {
 
     }
 
+    .flex-row-30-icon-fix-position {
+        width: calc(90% - 130px);
+        min-width: calc(90% - 130px);
+        max-width: calc(90% - 130px);
+    }
+
     .flex-row-50 {
         width: 40%;
         min-width: 40%;
+    }
+
+    .flex-row-50-icon-fix-position {
+        width: 30%;
+        min-width: 30%;
     }
 
     .item-title {
@@ -571,7 +612,9 @@ summary:hover .count {
 .two-icon {
     display: flex;
     align-items: center;
+    min-width: 130px;
 }
+
 
 .reactions {
     margin-right: 15px;
