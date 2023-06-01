@@ -568,6 +568,11 @@ summary:hover .count {
 
 }
 
+.two-icon {
+    display: flex;
+    align-items: center;
+}
+
 .reactions {
     margin-right: 15px;
     justify-content: flex-end;
@@ -642,7 +647,7 @@ summary:hover .count {
 }
 
 .sub-tab {
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
 }
 
